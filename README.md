@@ -8,15 +8,16 @@ Scan tool for iSH app
 ***
 installation
 
-copy and paste
+    copy and paste
 
-ln -s <path/to/file> /bin/ipscan
+    ln -s <path/to/file> /bin/ipscan
 
 ***
 execution
 
-Command---IP----ext
+    Command---IP----ext
 
-./ipscan 10.0.0 100
+    ./ipscan 10.0.0 100
 
 check file for more info
+***
