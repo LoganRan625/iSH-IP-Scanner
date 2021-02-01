@@ -5,13 +5,17 @@ sends pings out to user defined ip and extention.
 ip addresses are saved to list if pings get response
 saves IPs to file and prints them to screen
 
+***
 installation
-  copy and paste
-  ln -s <path/to/file> /bin/ipscan
 
-Use
+copy and paste
 
-Command   IP    ext
+ln -s <path/to/file> /bin/ipscan
+
+***
+execution
+
+Command---IP----ext
 
 ./ipscan 10.0.0 100
 
