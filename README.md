@@ -25,7 +25,10 @@ format
 
     Command---IP----ext
 
-    ./ipscan 10.0.0 100
+    ./Ipscan 10.0.0 100
+      ipscan 10.0.0 50
+
+
 
 check file for more info
 ***
