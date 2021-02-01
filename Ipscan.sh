@@ -11,6 +11,7 @@
 #  installation
 #
 #  change permissions
+#  cd iSH-IP-Scanner
 #  chmod 755 Ipscan.sh
 #
 #  copy edit and paste in terminal
