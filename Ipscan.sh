@@ -8,7 +8,12 @@
 #  FILE     IP     .ITTER
 #  ./ipscan 10.0.0 50
 #
-#  installation (copy line below and edit)
+#  installation
+#
+#  change permissions
+#  chmod 755 Ipscan.sh
+#
+#  copy edit and paste in terminal
 #  ln -s <path/of/this/file> /bin/ipscan
 #
 #  100+ parallel pings can crash iSH
