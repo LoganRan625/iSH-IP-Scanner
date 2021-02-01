@@ -12,6 +12,7 @@ installation
 Use
 
 Command   IP    ext
+
 ./ipscan 10.0.0 100
 
 check file for more info
