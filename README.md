@@ -6,14 +6,16 @@ Scan tool for iSH app
     saves IPs to file and prints them to screen.
 
 ***
-installation
+INSTALLATION
 
-    copy and paste
+copy and paste
 
     ln -s <path/to/file> /bin/ipscan
 
 ***
-execution
+EXECUTION
+
+format
 
     Command---IP----ext
 
