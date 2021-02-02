@@ -22,11 +22,14 @@
 #  during execution may recieve " host is down" and
 #  "host is unreachable" scroll to bottom.
 #
+#
 #ipaddress=$(ifconfig | grep "netmask" | cut -d " " -f 6)
 #ip=$(echo $ipaddress | cut -d "." -f1-3)
 #
+#  -----if ifconfig is working-----
 #  replace $1 with $ip and uncomment ipaddress and ip
-#  when ifconfig works, do not add ip perameter when exe
+#  when ifconfig works, do not add ip perameter after 
+#  command "ipscan" once changes have been made
 #
 #########################################################
 
