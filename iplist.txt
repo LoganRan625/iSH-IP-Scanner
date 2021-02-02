@@ -1,0 +1,1 @@
+# your IPs will be stored here, everytime you run the command ipscan this file will be over written
