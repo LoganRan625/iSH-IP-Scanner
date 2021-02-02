@@ -14,7 +14,7 @@ change permissions
     chmod 755 Ipscan.sh
 
 
-copy and paste
+**copy and paste**
 
     ln -s <path/to/file> /bin/ipscan
 
