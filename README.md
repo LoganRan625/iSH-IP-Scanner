@@ -12,6 +12,8 @@ INSTALLATION
 
 change permissions
     
+    cd iSH-IP-Scanner
+    
     chmod 755 install.sh
     
     ./install.sh
