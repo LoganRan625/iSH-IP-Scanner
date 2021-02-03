@@ -11,14 +11,10 @@ Scan tool for iSH app
 INSTALLATION
 
 change permissions
-
-    cd iSH-IP-Scanner
-    chmod 755 Ipscan.sh
-
-
-copy and paste
-
-    ln -s <path/to/file> /bin/ipscan
+    
+    chmod 755 install.sh
+    
+    ./install.sh
 
 ***
 EXECUTION
