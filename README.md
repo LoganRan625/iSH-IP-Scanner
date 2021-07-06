@@ -4,8 +4,7 @@
 Scan tool for iSH app
 
     Sends pings out to user defined ip and extention.
-    Ip addresses are saved to list if pings get response.
-    saves IPs to file and prints them to screen.
+    Ip addresses are saved to file and printed to screen.
 
 ***
 INSTALLATION
