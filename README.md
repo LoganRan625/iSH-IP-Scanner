@@ -37,6 +37,7 @@ this program is designed for iSH ios app, but works fine on other linux distrobu
 using this as your ip scanner tool on iSH you may notice few issues.
 
 **crashes**
+
 after executing the command, the app crashes. ipscan may be using up all of the process power 
 that the app can handle by overloading it with to many pings at once. to solve this issue, you can;
 
