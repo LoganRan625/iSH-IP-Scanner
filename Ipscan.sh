@@ -5,17 +5,17 @@
 #  iSH IPSCANNER
 #
 #  type in your devices ip in this format
-#  FILE     IP     .ITTER
-#  ./ipscan 10.0.0 50
+#     FILE     IP     ITER
+#     ./ipscan 10.0.0 50
 #
 #  installation
 #
-#  change permissions
-#  cd iSH-IP-Scanner
-#  chmod 755 Ipscan.sh
+#     change permissions
+#     cd iSH-IP-Scanner
+#     chmod 755 Ipscan.sh
 #
 #  copy edit and paste in terminal
-#  ln -s <path/of/this/file> /bin/ipscan
+#     ln -s <path/of/this/file> /bin/ipscan
 #
 #  100+ parallel pings can crash iSH
 #
@@ -35,8 +35,7 @@
 #########################################################
 
 echo "---IP_SCAN---" > iplist.txt
-#
-# reset file each execution
+# resets file each execution
 
 for i in {1..4} ; do      # repeats incase of lost packets
   for ip in `seq 1 $2` ; do
@@ -45,8 +44,8 @@ for i in {1..4} ; do      # repeats incase of lost packets
   sleep 3 #keeps iSH from crashing
 done
 
-iplist=$(awk '!seen[$0]++' iplist.txt) #remove duplicates
-printf '%s\n' "$iplist" > iplist.txt # formatting file
+iplist=$(awk '!seen[$0]++' iplist.txt)   #remove duplicates
+printf '%s\n' "$iplist" > iplist.txt     # formatting file
 
 printf "\e[37m\n"
 cat iplist.txt # print file wrapped in white
