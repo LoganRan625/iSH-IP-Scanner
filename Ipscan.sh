@@ -44,7 +44,7 @@ for i in {1..4} ; do      # repeats incase of lost packets
   sleep 3 #keeps iSH from crashing
 done
 
-iplist=$(awk '!seen[$0]++' iplist.txt)   #remove duplicates
+iplist=$(awk '!seen[$0]++' iplist.txt)   # remove duplicates
 printf '%s\n' "$iplist" > iplist.txt     # formatting file
 
 printf "\e[37m\n"
