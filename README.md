@@ -33,8 +33,7 @@ check file for more info
 ***
 **COMPATABILITY ISSUES**
 
-this program is designed for iSH ios app, but works fine on other linux distrobutions.
-using this as your ip scanner tool on iSH you may notice few issues.
+this program is designed for iSH ios app, but works fine on other linux distros.
 
 **crashes**
 
